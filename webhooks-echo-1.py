@@ -3,7 +3,7 @@
 import telegram
 from flask import Flask, request
 
-chinkubot='162676774:AAH7oiRemjTuV2vbfwqaABk46v_ceiLr_3c'
+chinkubot=os.environ['chinkubot']
 TOKEN=chinkubot
 HOOK=chinkubot
 URL='abnaeem0.pythonanywhere.com/'
